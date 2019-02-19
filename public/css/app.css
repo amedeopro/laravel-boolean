@@ -10799,3 +10799,10 @@ a.text-dark:focus {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
 }
 
+.privacy,
+.lavora-con-noi {
+  width: 100%;
+  float: left;
+  margin-bottom: 30px;
+}
+
