@@ -13776,6 +13776,12 @@ a.text-dark:focus {
   text-decoration: none;
 }
 
+.pre-footer .box i {
+  color: #1B3C59;
+  font-size: 30px;
+  margin: 0 20px;
+}
+
 .footer-final {
   float: left;
   width: 100%;

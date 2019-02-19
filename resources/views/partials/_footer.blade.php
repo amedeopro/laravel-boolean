@@ -20,9 +20,7 @@
     </div>
     <div class="box">
 
-      <p><i class="fab fa-facebook-square"></i></p>
-      <p><i class="fab fa-facebook-square"></i></p>
-      <p><i class="fab fa-facebook-square"></i></p>
+      <p><i class="fab fa-facebook-square"></i> <i class="fab fa-linkedin"></i> <i class="fab fa-whatsapp"></i></p>
 
     </div>
   </div>
