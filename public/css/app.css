@@ -10737,6 +10737,36 @@ a.text-dark:focus {
   line-height: 700px;
 }
 
+.partners {
+  width: 100%;
+  height: 250px;
+  background: #1B3C59;
+  float: left;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners .text-partners {
+  text-align: center;
+}
+
+.partners .text-partners h2 {
+  color: white;
+  font-size: 30px;
+}
+
+.partners .logo-partners {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.partners .logo-partners img {
+  max-width: 130px;
+  margin: 0 40px;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

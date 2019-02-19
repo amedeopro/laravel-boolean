@@ -37,4 +37,24 @@
         </div>
 
       </div>
+      <div class="partners">
+        <div class="container">
+
+            <div class="row">
+              <div class="col-12">
+                <div class="text-partners">
+                  <h2>I nostri studenti sono stati assunti da</h2>
+                </div>
+                <div class="logo-partners">
+                  <img src="{{ asset('img/facile_it.png')}}" alt="">
+                  <img src="{{ asset('img/oneday.png')}}" alt="">
+                  <img src="{{ asset('img/cayenne.png')}}" alt="">
+                  <img src="{{ asset('img/softec.png')}}" alt="">
+                  <img src="{{ asset('img/fabbrica_digitale.png')}}" alt="">
+                </div>
+              </div>
+
+            </div>
+        </div>
+      </div>
     @endsection
