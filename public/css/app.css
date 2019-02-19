@@ -10699,6 +10699,33 @@ a.text-dark:focus {
   border-radius: 2px;
 }
 
+.pre-footer {
+  float: left;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.pre-footer .box {
+  float: left;
+  width: calc(100% / 4);
+  height: 100%;
+}
+
+.pre-footer .box img {
+  max-width: 200px;
+}
+
+.footer-final {
+  float: left;
+  width: 100%;
+  height: 50px;
+  background: #1B3C59;
+  color: white;
+}
+
 .jumbo {
   float: left;
   width: 100%;

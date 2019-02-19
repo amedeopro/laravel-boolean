@@ -1,0 +1,24 @@
+.pre-footer{
+  float: left;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  .box{
+    float: left;
+    width: calc(100% / 4);
+    height: 100%;
+    img{
+      max-width: 200px;
+    }
+  }
+}
+
+.footer-final{
+  float: left;
+  width: 100%;
+  height: 50px;
+  background: $blueBoolean;
+  color: white;
+}
