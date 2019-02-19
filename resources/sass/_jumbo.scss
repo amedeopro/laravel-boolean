@@ -1,0 +1,40 @@
+.jumbo{
+  float: left;
+  width: 100%;
+  height: 700px;
+  background: white;
+  .container{
+    .row{
+      .left{
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        padding: 0 60px;
+        .title-home{
+          h1{
+            font-weight: 400;
+            font-size: 50px;
+            color: #61CE4E;
+            line-height: 60px;
+          }
+        }
+        .text-home{
+          color: $blueBoolean;
+          font-size: 18px;
+        }
+        .button-home{
+          a{
+            text-transform: uppercase;
+            color: $blueBoolean;
+            text-decoration: none;
+          }
+        }
+      }
+      .right{
+        height: 100%;
+        line-height: 700px;
+      }
+    }
+  }
+}

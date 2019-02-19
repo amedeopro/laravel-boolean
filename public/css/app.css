@@ -10699,6 +10699,44 @@ a.text-dark:focus {
   border-radius: 2px;
 }
 
+.jumbo {
+  float: left;
+  width: 100%;
+  height: 700px;
+  background: white;
+}
+
+.jumbo .container .row .left {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 60px;
+}
+
+.jumbo .container .row .left .title-home h1 {
+  font-weight: 400;
+  font-size: 50px;
+  color: #61CE4E;
+  line-height: 60px;
+}
+
+.jumbo .container .row .left .text-home {
+  color: #1B3C59;
+  font-size: 18px;
+}
+
+.jumbo .container .row .left .button-home a {
+  text-transform: uppercase;
+  color: #1B3C59;
+  text-decoration: none;
+}
+
+.jumbo .container .row .right {
+  height: 100%;
+  line-height: 700px;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
