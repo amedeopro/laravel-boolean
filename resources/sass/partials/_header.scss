@@ -1,0 +1,38 @@
+.header-left{
+  width: 30%;
+  height: 70px;
+  float: left;
+  img{
+    height: 50px;
+    margin: 10px 0;
+  }
+}
+
+.header-right{
+  width: 70%;
+  height: 70px;
+  float: left;
+  line-height: 70px;
+  text-align: right;
+  ul{
+    list-style: none;
+    li{
+      display: inline-block;
+      margin-right: 35px;
+      a{
+        color: #1B3C59;
+        text-decoration: none;
+        font-family: 'Rubik', sans-serif;
+        text-transform: uppercase;
+        font-size: 14px;
+        &.orange{
+          background: #FD8D53;
+          padding: 10px 20px;
+          text-transform: capitalize !important;
+          color: white;
+          border-radius: 2px;
+        }
+      }
+    }
+  }
+}

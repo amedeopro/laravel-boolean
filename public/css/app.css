@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Nunito);@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Nunito);@import url(https://fonts.googleapis.com/css?family=Rubik);@charset "UTF-8";
 
 /*!
  * Bootstrap v4.3.1 (https://getbootstrap.com/)
@@ -10653,6 +10653,50 @@ a.text-dark:focus {
     color: inherit;
     border-color: #dee2e6;
   }
+}
+
+.header-left {
+  width: 30%;
+  height: 70px;
+  float: left;
+}
+
+.header-left img {
+  height: 50px;
+  margin: 10px 0;
+}
+
+.header-right {
+  width: 70%;
+  height: 70px;
+  float: left;
+  line-height: 70px;
+  text-align: right;
+}
+
+.header-right ul {
+  list-style: none;
+}
+
+.header-right ul li {
+  display: inline-block;
+  margin-right: 35px;
+}
+
+.header-right ul li a {
+  color: #1B3C59;
+  text-decoration: none;
+  font-family: "Rubik", sans-serif;
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.header-right ul li a.orange {
+  background: #FD8D53;
+  padding: 10px 20px;
+  text-transform: capitalize !important;
+  color: white;
+  border-radius: 2px;
 }
 
 .navbar-laravel {
