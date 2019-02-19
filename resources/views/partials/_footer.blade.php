@@ -1,27 +1,29 @@
 <div class="pre-footer">
   <div class="container">
     <div class="box">
-      
+
         <img src="{{ asset('img/logo.png')}}" alt="">
-      
+
     </div>
     <div class="box">
-      
+
         <p>ciao@boolean.careers</p>
         <p>02-40031288</p>
         <p>+39 327-9578239</p>
-      
+
     </div>
     <div class="box">
-      
-        <a href="{{ route('privacy')}}">Privacy Policy</a>
+
+        <a href="{{ route('privacy')}}">Privacy Policy</a><br>
         <a href="{{ route('lavora-con-noi')}}">Lavora con noi</a>
-      
+
     </div>
     <div class="box">
-      
-        <p>icona1 - icona2 - icona3</p>
-      
+
+      <p><i class="fab fa-facebook-square"></i></p>
+      <p><i class="fab fa-facebook-square"></i></p>
+      <p><i class="fab fa-facebook-square"></i></p>
+
     </div>
   </div>
 </div>
