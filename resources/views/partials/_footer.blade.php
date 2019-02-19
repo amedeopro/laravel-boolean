@@ -27,11 +27,16 @@
 </div>
 <div class="footer-final">
   <div class="container">
-    <div class="col-6">
-      <p>Boolean** (my_new_job > my_old_job) // returns true</p>
+    <div class="footer-left">
+
+        <p>Boolean** (my_new_job > my_old_job) // returns true</p>
+
     </div>
-    <div class="col-6">
-      <p>Boolean SRLS - Piazzale Giovanni dalle Bande Nere, 9 - 20146, Milano - P.IVA: 10214930967</p>
+    <div class="footer-right">
+
+        <p>Boolean SRLS - Piazzale Giovanni dalle Bande Nere, 9 - 20146, Milano - P.IVA: 10214930967</p>
+      
+
     </div>
   </div>
 </div>

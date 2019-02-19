@@ -21,4 +21,15 @@
   height: 50px;
   background: $blueBoolean;
   color: white;
+  .footer-left, .footer-right{
+    float: left;
+    height: 100%;
+  }
+  .footer-left{
+    width: 31%;
+  }
+  .footer-right{
+    width: 69%;
+    text-align: right;
+  }
 }

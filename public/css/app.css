@@ -10726,6 +10726,21 @@ a.text-dark:focus {
   color: white;
 }
 
+.footer-final .footer-left,
+.footer-final .footer-right {
+  float: left;
+  height: 100%;
+}
+
+.footer-final .footer-left {
+  width: 31%;
+}
+
+.footer-final .footer-right {
+  width: 69%;
+  text-align: right;
+}
+
 .jumbo {
   float: left;
   width: 100%;
