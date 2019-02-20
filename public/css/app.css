@@ -13875,6 +13875,47 @@ a.text-dark:focus {
   margin: 0 40px;
 }
 
+.cnt-stud {
+  width: 100%;
+  float: left;
+}
+
+.cnt-stud .student {
+  margin: 0 auto;
+  width: 400px;
+  height: 80px;
+  background: #1B3C59;
+}
+
+.cnt-stud .student .student-left,
+.cnt-stud .student .student-right {
+  float: left;
+  height: 100%;
+}
+
+.cnt-stud .student .student-left {
+  padding: 0 10px;
+  width: 30%;
+}
+
+.cnt-stud .student .student-left img {
+  margin-top: 5px;
+  height: 70px;
+  border-radius: 100%;
+}
+
+.cnt-stud .student .student-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 70%;
+  color: white;
+}
+
+.cnt-stud .student .student-right h3 {
+  font-size: 18px;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

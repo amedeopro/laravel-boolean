@@ -5,10 +5,9 @@
   <div class="header-right">
     <ul>
       <li><a href="{{ route('home') }}">home</a></li>
-      <li><a href="#">corso</a></li>
-      <li><a href="#">metodo</a></li>
-      <li><a href="#">dopo il corso</a></li>
-      <li><a href="#">faq</a></li>
+      <li><a href="{{ route('studenti') }}">studenti</a></li>
+      <li><a href="{{ route('privacy')}}">privacy policy</a></li>
+      <li><a href="{{ route('lavora-con-noi')}}">Lavora con noi</a></li>
       <li><a href="#" class="orange">iscriviti</a></li>
     </ul>
   </div>
