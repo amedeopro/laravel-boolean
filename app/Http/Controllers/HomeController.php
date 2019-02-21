@@ -11,6 +11,6 @@ class HomeController extends Controller
         'title' => 'Homepage Boolean',
         'meta_description' => 'Benvenuto su boolean'
       ];
-      return view('home', $data);
+      return view('home', compact(['data']));
     }
 }

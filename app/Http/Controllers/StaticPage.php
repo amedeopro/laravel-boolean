@@ -11,7 +11,7 @@ class StaticPage extends Controller
         'title' => 'Privacy Policy',
         'meta_description' => 'Privacy policy boolean'
       ];
-      return view('privacy', $data);
+      return view('privacy', compact(['data']));
     }
 
     public function lavoraConNoi(){
@@ -19,6 +19,6 @@ class StaticPage extends Controller
         'title' => 'Lavora con noi',
         'meta_description' => 'Lavora con boolean'
       ];
-      return view('lavoraconnoi', $data);
+      return view('lavoraconnoi', compact(['data']));
     }
 }
