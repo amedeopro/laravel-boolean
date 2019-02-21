@@ -14,7 +14,7 @@
               </div>
               <div class="student-right">
                 <h3>
-                  <a href="{{ route('studenti.show', $student['slug'])}}">{{ $student['name'] }} ({{ $student['age'] }} anni)</a>
+                  <a href="{{ route('studenti.show', ['slug' => $student['slug']])}}">{{ $student['name'] }} ({{ $student['age'] }} anni)</a>
                 </h3>
                 <small>Ora è Web Developer in {{ $student['work'] }}</small>
               </div>
