@@ -10,7 +10,7 @@
           <div class="col-6">
             <div class="student">
               <div class="student-left">
-                <img src="https://www.boolean.careers/images/students/biagini.png" alt="">
+                <img src="{{ $student['img'] }}" alt="">
               </div>
               <div class="student-right">
                 <h3>{{ $student['name'] }} ({{ $student['age'] }} anni)</h3>
