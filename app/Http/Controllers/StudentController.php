@@ -12,6 +12,8 @@ class StudentController extends Controller
         'meta_description' => 'Studenti boolean'
       ];
 
-      return view('studenti', compact(['data']));
+      $students = config('students');
+
+      return view('studenti', compact(['data', 'students']));
     }
 }

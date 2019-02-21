@@ -6,7 +6,7 @@
     <div class="container">
       <div class="row">
 
-        @foreach (config('students') as $student)
+        @foreach ($students as $student)
           <div class="col-6">
             <div class="student">
               <div class="student-left">
