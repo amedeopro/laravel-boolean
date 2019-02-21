@@ -16,4 +16,10 @@ class StudentController extends Controller
 
       return view('studenti', compact(['data', 'students']));
     }
+
+    public function show(){
+
+      dd($slug);
+
+    }
 }

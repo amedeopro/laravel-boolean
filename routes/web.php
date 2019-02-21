@@ -15,3 +15,4 @@ Route::get('/', 'HomeController@index')->name('home');
 Route::get('privacy', 'StaticPage@privacy')->name('privacy');
 Route::get('lavora-con-noi', 'StaticPage@lavoraConNoi')->name('lavora-con-noi');
 Route::get('studenti', 'StudentController@index')->name('studenti');
+Route::get('studenti/{slug}', 'StudentController@show')->name('studenti.show');
