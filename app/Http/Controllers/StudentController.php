@@ -11,6 +11,27 @@ class StudentController extends Controller
         'title' => 'Studenti',
         'meta_description' => 'Studenti boolean'
       ];
-      return view('studenti', $data);
+
+      $students = [
+        [
+        'name' => 'Alessandro Biagini',
+        'age' => 24,
+        'work' => 'Softec Spa'
+        ],
+
+        [
+        'name' => 'Davide Lecci',
+        'age' => 28,
+        'work' => 'Facile.it'
+        ],
+
+        [
+        'name' => 'Loana Masetti',
+        'age' => 35,
+        'work' => 'Cayenne Web Agency'
+        ],
+      ];
+
+      return view('studenti', compact(['data', 'students']));
     }
 }
